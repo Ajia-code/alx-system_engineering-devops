@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "$(ls '-l' "$(dirname "$(realpath ${BASH_SOURCE:-$0})\
-")")"
+echo "$(ls '-l' "$(dirname "$(realpath $0)")")"
